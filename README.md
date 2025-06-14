@@ -1,12 +1,85 @@
-# React + Vite
+# 🤖 AI Chatbot – React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple AI-powered chatbot built with **React**, designed to simulate human-like conversation. It features a clean UI and integrates easily with any LLM API (like OpenAI, Gemini, Claude, etc.).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
 
-## Expanding the ESLint configuration
+[![Demo Screenshot](https://your-demo-image-link.com)  
+![image](https://github.com/user-attachments/assets/438ce8ac-a33d-4223-b8fe-181db6b30e1e)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+](https://ai-chat-bot-sable-three.vercel.app/)
+*You can access this link to experience it.*
+
+---
+
+## 📦 Features
+
+- 🧠 Conversational interface with AI-generated responses
+- ⏳ "Thinking..." placeholder for realistic delay effect
+- 💬 Clean, user-friendly UI
+- ⚙️ Custom API endpoint via `VITE_API_URL`
+- 🔄 Auto-scrolls on new messages
+- ✅ Built with modern React + Hooks
+
+---
+
+## 🛠️ Technologies Used
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- Plain CSS
+- Fetch API for making backend requests
+
+---
+
+## 🏗️ Project Structure
+
+src/
+├── App.jsx # Main app component
+├── components/
+│ ├── ChatForm.jsx # Message input form
+│ ├── ChatMessage.jsx # Message bubble (user/bot)
+│ └── ChatbotIcon.jsx # Chatbot SVG icon
+
+---
+
+## 📄 Getting Started
+
+```bash
+# Step 1: Create a Vite + React project
+npm create vite@latest ai-chatbot --template react
+cd ai-chatbot
+npm install
+
+# Step 2: Add your source files to the /src folder
+
+# Step 3: Create a .env file and set your API URL
+echo "VITE_API_URL=https://your-api-endpoint.com" > .env
+
+# Step 4: Run the development server
+🌐 Environment Variable
+The chatbot calls an AI API defined in the .env file:
+
+VITE_API_URL=https://your-api-url.com/chat
+📋 TODO (Enhancements you can add)
+ Support for Markdown or code blocks
+
+ Local chat history storage
+
+ Dark mode / theme toggle
+
+ Custom personalities / assistant profiles
+📬 Contact
+📧 tenlachay@gmail.com
+🌐 GitHub: @akongachay
+🧾 License
+MIT License © 2025 — Feel free to modify as needed.
+---
+Let me know if you want to:
+- Add a deploy guide (e.g., for **Vercel** or **Netlify**)
+- Turn this into an actual downloadable `README.md` file
+- Add shields (badges) at the top (build, license, etc.)
+
+I'm happy to help!
