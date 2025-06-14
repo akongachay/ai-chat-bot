@@ -34,17 +34,6 @@ A simple AI-powered chatbot built with **React**, designed to simulate human-lik
 
 ---
 
-## 🏗️ Project Structure
-
-src/
-├── App.jsx # Main app component
-├── components/
-│ ├── ChatForm.jsx # Message input form
-│ ├── ChatMessage.jsx # Message bubble (user/bot)
-│ └── ChatbotIcon.jsx # Chatbot SVG icon
-
----
-
 ## 📄 Getting Started
 
 ```bash
@@ -77,9 +66,5 @@ VITE_API_URL=https://your-api-url.com/chat
 🧾 License
 MIT License © 2025 — Feel free to modify as needed.
 ---
-Let me know if you want to:
-- Add a deploy guide (e.g., for **Vercel** or **Netlify**)
-- Turn this into an actual downloadable `README.md` file
-- Add shields (badges) at the top (build, license, etc.)
 
 I'm happy to help!
